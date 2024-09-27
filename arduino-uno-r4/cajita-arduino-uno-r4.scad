@@ -2,13 +2,17 @@
 // por @montoyamoraga
 // para @piruetasxyz
 
-// ancho y largo en mm
-// arduino uno r4 wifi
-ancho = 68.85;
-largo = 53.34;
-// TODO: revisar altura
-altura = 15;
+// incluir archivos externos
+include <arduino-uno-r4-wifi.scad>;
+
+// definir tolerancia
+TOLERANCIA = 0.1;
+
+// definir modulo
+module cajitaArduinoUnoR4() {
+    arduinoUnoR4();
+}
 
 
-
-cube([ancho, largo, altura], center = true);
+// usar modulo
+cajitaArduinoUnoR4();
