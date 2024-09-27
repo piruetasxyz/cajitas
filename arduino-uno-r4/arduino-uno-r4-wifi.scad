@@ -1,3 +1,7 @@
+// arduino-uno-r4.scad
+// por @montoyamoraga
+// para @piruetasxyz
+
 // ancho y largo en mm
 // arduino uno r4 wifi
 ancho = 68.85;
